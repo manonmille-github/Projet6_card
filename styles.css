@@ -14,6 +14,24 @@
     font-family: "KumbhSans-Regular";
     src: url(font/KumbhSans-Regular.ttf);
 }
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;  
+}
+
+.container-information{
+    display: flex;
+    justify-content: space-around;
+   
+}
 
 .photo-profil {
    width:8rem;
@@ -21,8 +39,6 @@
    border-color: white;
 }
 
-.name {
-    font-family: "KumbhSans-Regular" !important;
-    background-color: teal !important;
-
+#name {
+    font-family: "KumbhSans-Regular";
 }
