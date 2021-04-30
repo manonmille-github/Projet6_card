@@ -22,7 +22,7 @@
 }
 
 .name {
-    font-family: "KumbhSans-Regular";
-    background-color: teal;
+    font-family: "KumbhSans-Regular" !important;
+    background-color: teal !important;
 
 }
