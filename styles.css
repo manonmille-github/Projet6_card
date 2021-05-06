@@ -1,8 +1,6 @@
 @font-face {
-    font-family: "KumbhSans-Bold";
+    font-family: "Bold";
     src: url(font/KumbhSans-Bold.ttf);
-    src: url(font/KumbhSans-Light.ttf);
-    src: url(font/KumbhSans-Regular.ttf);
 }
 
 @font-face {
@@ -14,31 +12,54 @@
     font-family: "KumbhSans-Regular";
     src: url(font/KumbhSans-Regular.ttf);
 }
-body{
+
+body {
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: teal;
+    background-image: url(images/bg-pattern-bottom.svg);
 }
 
-.card-body{
+.card {
     display: flex;
-    flex-direction: column;  
+    justify-content: center;
 }
 
-.container-information{
+.card-body {
     display: flex;
-    justify-content: space-around;
-   
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.container-identity {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.container-information {
+    display: flex;
+    justify-content: space-around;   
 }
 
 .photo-profil {
-   width:8rem;
-   clip-path:ellipse(50% 50%);
-   border-color: white;
+    position: absolute;
+    height: 5.6rem;
+    width: 5.6rem;
+    border-radius: 50%;
+    border: 5px solid white;
+    border-spacing: 3px;
+    left: 33%;
+    top: 21.3%;
 }
 
-#name {
-    font-family: "KumbhSans-Regular";
+.information {
+    text-align: center;
+}
+.chiffre {
+    font-family: "bold";
 }
