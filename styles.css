@@ -1,4 +1,65 @@
+@font-face {
+    font-family: "Bold";
+    src: url(font/KumbhSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "KumbhSans-Light";
+    src: url(font/KumbhSans-Light.ttf);
+}
+
+@font-face {
+    font-family: "KumbhSans-Regular";
+    src: url(font/KumbhSans-Regular.ttf);
+}
+
 body {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    background-image: url(images/bg-pattern-bottom.svg);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.container-identity {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.container-information {
+    display: flex;
+    justify-content: space-around;   
+}
+
+.photo-profil {
+    position: absolute;
+    height: 5.6rem;
+    width: 5.6rem;
+    border-radius: 50%;
+    border: 5px solid white;
+    border-spacing: 3px;
+    left: 33%;
+    top: 21.3%;
+}
+
+.information {
+    text-align: center;
+}
+.chiffre {
+    font-family: "bold";
 }
